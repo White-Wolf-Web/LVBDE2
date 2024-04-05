@@ -1,0 +1,44 @@
+[
+	{
+		"id": 1,
+		"title": "Massage sportif",
+		"description": "Optimise les performances sportives, accélère la récupération et prévient les blessures grâce à des techniques ciblées.",
+		"imageUrl": "/img/massage-sportif.jpg",
+		"imageAlt": "Praticien effectuant un massage sportif"
+	},
+	{
+		"id": 2,
+		"title": "Massage relaxant",
+		"description": "Détend le Corps et l'Esprit, réduit le stress et les tensions musculaires grâce à des mouvements doux, apaisants et fluides.",
+		"imageUrl": "/img/massage-relaxant.jpg",
+		"imageAlt": "Masseur offrant un massage relaxant"
+	},
+	{
+		"id": 3,
+		"title": "Shiatsu",
+		"description": "Technique japonaise utilisant la pression des doigts sur des points spécifiques 'd'acupuncture' pour rééquilibrer l'énergie du corps.",
+		"imageUrl": "/img/shiatsu.jpg",
+		"imageAlt": "Technique Shiatsu effectué avec douceur"
+	},
+	{
+		"id": 4,
+		"title": "Reiki",
+		"description": "Méthode de 'guérison énergétique' qui favorise la relaxation profonde et le bien-être en transférant l'énergie universelle.",
+		"imageUrl": "/img/reiki.jpg",
+		"imageAlt": "Séance de reiki effectuée avec les mains"
+	},
+	{
+		"id": 5,
+		"title": "Massage sur chaise",
+		"description": "Solution rapide, efficace et revitalisant pour soulager les tensions, spécialement conçue pour les environnements de travail.",
+		"imageUrl": "/img/massage-sur-chaise.jpg",
+		"imageAlt": "Séance de 15 minutes de Amma"
+	},
+	{
+		"id": 6,
+		"title": "Réflexologie plantaire",
+		"description": "Technique thérapeutique qui stimule les points réflexes des pieds pour améliorer la santé physique et mentale sur le temps.",
+		"imageUrl": "/img/reflexologie-plantaire.jpg",
+		"imageAlt": "On voit un thérapeuthe masser les pieds de son client"
+	}
+]
