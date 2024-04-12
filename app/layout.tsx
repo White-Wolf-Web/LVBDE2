@@ -8,6 +8,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import { SandpackCSS } from './blog/[slug]/sandpack';
 import Banniere from "./components/Banniere"
 import type { Viewport } from 'next'
+import Footer from './components/footer';
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -134,7 +135,9 @@ export default function RootLayout({
         <div className='max-w-4xl m-auto'>
           <Navbar />
           {children}
+        
           <Analytics />
+          <Footer />
           <SpeedInsights />
           </div>
         </main>

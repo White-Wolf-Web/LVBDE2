@@ -16,14 +16,9 @@ const navItems = {
     name: 'Shiatsu',
   }, '/reiki': {
     name: 'Reiki',
-  },'/blog': {
-    name: 'Blog',
   },
   '/contact': {
     name: 'Contact',
-  },
-  '/guestbook': {
-    name: 'Guestbook',
   },
 };
 

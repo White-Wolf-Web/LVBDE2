@@ -1,5 +1,6 @@
 import Introduction from './components/Introduction';
 import MassageCardContainer from './components/card/MassageCardContainer';
+import GloogleMap from './components/GloogleMap';
 
 
 
@@ -17,6 +18,9 @@ export default function Page() {
       <Introduction />
 
 <MassageCardContainer />
+<GloogleMap />
+
+
 
     </section>
   );
