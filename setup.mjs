@@ -2,7 +2,7 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import dotenv from 'dotenv';
 import { fileURLToPath } from 'url';
-
+/*
 // Assuming your script is running at the root of your project, adjust as necessary
 /// bla bla bla
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -16,6 +16,8 @@ fs.mkdir(contentDir, { recursive: true })
   .catch(error => {
     console.error('Error ensuring directory:', error);
   });
+
+  */
 /*
 const template = `---
 title: 'Hello, World!'
