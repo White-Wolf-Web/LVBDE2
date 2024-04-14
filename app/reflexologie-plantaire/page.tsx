@@ -32,7 +32,7 @@ export default function page() {
 				</p>
 				<div>
 					<h3 className="text-xl md:text-2xl text-left custom-mt-2rem  leading-normal">Pourquoi Opter pour un Massage des Pieds ?</h3>
-					<Image src={massagePieds} alt="massage profond sur une omoplate" width={400} className="rounded mr-4 mt-4 float-left h-auto" />
+					<Image src={massagePieds} alt="massage des pieds effectué à 2 mains" width={400} className="rounded mr-4 mt-4 float-left h-auto" />
 					<p className="prose prose-neutral dark:prose-invert">
 						Il est souvent dit que nos pieds sont le miroir de notre santé générale. La réflexologie plantaire utilise ce principe pour agir sur l'ensemble de l'organisme. Par des
 						techniques de pression précises, ce massage des pieds aide à débloquer les canaux d'énergie, réduire le stress, et faciliter la guérison naturelle du corps.

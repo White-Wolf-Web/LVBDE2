@@ -31,7 +31,7 @@ export default function page() {
 				<div className="w-full float-none">
 					<h3 className="text-xl md:text-2xl text-left custom-mt-2rem  leading-normal">L&apos;Essence du Shiatsu : Plus qu&apos;un Massage, une Voie vers l&apos;Équilibre</h3>
 					<div className="float-none">
-						<Image src={shiatsuSurFuton} alt="Homme pratiquant le shiatsu sur un futon " width={400} className="rounded mr-4 mt-4 float-left h-auto" />
+						<Image src={shiatsuSurFuton} alt="Homme pratiquant le shiatsu sur un futon" width={400} className="rounded mr-4 mt-4 float-left h-auto" />
 						<p className="prose prose-neutral dark:prose-invert">
 							Le Shiatsu se distingue des autres formes de massage par son approche holistique et sa philosophie fondée sur les principes de la médecine traditionnelle chinoise. Il ne se
 							limite pas à traiter les symptômes isolés, mais vise à harmoniser le Qi (énergie vitale) dans l&apos;ensemble du corps, favorisant ainsi la capacité naturelle de guérison

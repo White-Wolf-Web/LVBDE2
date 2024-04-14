@@ -29,7 +29,7 @@ export default function page() {
 				</p>
 <div>
 				<h3 className="text-xl md:text-2xl text-left custom-mt-2rem  leading-normal">Qu&apos;est-ce que le Reiki ?</h3>
-				<Image src={ReikiDistance} alt="massage profond sur une omoplate" width={400} className="rounded mr-4 mt-4 float-left h-auto" />
+				<Image src={ReikiDistance} alt="Séance de reiki, 2 mains à quelques cm de ditance du ventre" width={400} className="rounded mr-4 mt-4 float-left h-auto" />
 				<p className="prose prose-neutral dark:prose-invert">
 					Le Reiki, qui signifie &apos;énergie vitale universelle&apos;, est une méthode de guérison douce où le praticien canalise cette <strong>énergie universelle </strong>et la transmet
 					par imposition des mains.</p><p className="prose prose-neutral dark:prose-invert"> Cette approche holistique non invasive agit sur tous les plans de l&apos;être, offrant une relaxation profonde, un soulagement du stress et une accélération du

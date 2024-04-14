@@ -31,7 +31,7 @@ export default function page() {
 				</p>
 <div>
 				<h3 className="text-xl md:text-2xl text-left custom-mt-2rem  leading-normal">Qu&apos;est-ce que le Massage sur Chaise ?</h3>
-				<Image src={MassageAssis} alt="massage profond sur une omoplate" width={400} className="rounded mr-4 mt-4 float-left h-auto" />
+				<Image src={MassageAssis} alt="massage sur chaise relaxant" width={400} className="rounded mr-4 mt-4 float-left h-auto" />
 				<p className="prose prose-neutral dark:prose-invert">
 					Originaire du Japon, le Amma (qui signifie &apos;calmer par le toucher&apos;) est pratiqué sur une chaise ergonomique conçue spécifiquement pour ce type de massage. </p>
 					<p className="prose prose-neutral dark:prose-invert">En seulement 15
