@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 import { fileURLToPath } from 'url';
 
 // Assuming your script is running at the root of your project, adjust as necessary
+/// bla bla bla
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const contentDir = path.join(__dirname, 'content');
 
