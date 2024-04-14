@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import MassageDouceur from "../../../public/img/massage-en-douceur.jpg";
+import { start } from "repl";
 
 export const metadata: Metadata = {
 	title: "Massage doux voyage des sens à Courcelles | Bien-être",
@@ -85,7 +86,6 @@ export default function page() {
 					votre corps et <strong>votre esprit se régénérer sous le soin attentif</strong> de notre expert.
 				</p>
 			</section>
-			{/*<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(MetadataVoyageDesSens) }} />*/}
 		</main>
 	);
 }

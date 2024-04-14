@@ -1,5 +1,5 @@
 'use client';
-
+/*
 import { Sandpack } from '@codesandbox/sandpack-react';
 import {
   HTML,
@@ -98,3 +98,4 @@ export function LiveCode({ example }: { example: string }) {
     </Suspense>
   );
 }
+*/
