@@ -1,16 +1,20 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 import dotenv from 'dotenv';
+import { fileURLToPath } from 'url';
 
+// Assuming your script is running at the root of your project, adjust as necessary
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const contentDir = path.join(__dirname, 'content');
 
-// Ensure the directory exists
-fs.promises.mkdir(contentDir, { recursive: true }).then(() => {
-  console.log('Directory ensured:', contentDir);
-  // Continue with the rest of the setup
-}).catch(error => {
-  console.error('Error ensuring directory:', error);
-});
+fs.mkdir(contentDir, { recursive: true })
+  .then(() => {
+    console.log('Directory ensured:', contentDir);
+    // Continue with other setup tasks
+  })
+  .catch(error => {
+    console.error('Error ensuring directory:', error);
+  });
 
 const template = `---
 title: 'Hello, World!'
