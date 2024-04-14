@@ -1,7 +1,19 @@
 import { promises as fs } from 'fs';
 import path from 'path';
-import dotenv from 'dotenv';
 import { fileURLToPath } from 'url';
+
+// Get the correct directory path
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const contentDir = path.join(__dirname, 'content');
+
+// Create the directory if it does not exist
+fs.mkdir(contentDir, { recursive: true })
+  .then(() => console.log('Directory ensured:', contentDir))
+  .catch((error) => {
+    console.error('Error ensuring directory:', error);
+    process.exit(1);  // Exit with error to avoid further issues
+  });
+
 /*
 // Assuming your script is running at the root of your project, adjust as necessary
 /// bla bla bla
