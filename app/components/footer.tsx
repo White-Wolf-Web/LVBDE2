@@ -13,23 +13,23 @@ import Mail from "../../public/email.svg";
 
 export default function Footer() {
 	return (
-		<footer className="mt-4 px-4 flex flex-col sm:flex-row items-center justify-around ">
-			<div className="">
+		<footer className="mt-4 px-4 flex flex-col sm:flex-row items-center justify-between ">
+			<div id="contact" className="">
 				<p className="prose prose-neutral dark:prose-invert text-center">
 					<strong>CONTACT</strong>
 				</p>
 				<div className="flex ml-1">
-					{" "}
+				
 					<Image src={Mail} alt="" width={20} height={20} />
 					<p className="prose prose-neutral dark:prose-invert">&nbsp; lavoiedubienetre@outlook.com</p>
 				</div>
 				<div className="flex">
-					{" "}
+					
 					<Image src={Phone} alt="" width={24} height={24} />
-					<p className="prose prose-neutral dark:prose-invert">&nbsp; 0477 13 19 93</p>
+					<p className=" text-gray-300 dark:prose-invert">&nbsp; 0477 13 19 93</p>
 				</div>
 				<div className="flex">
-					{" "}
+					
 					<Image src={Adress} alt="" width={24} height={24} />
 					<p className="prose prose-neutral dark:prose-invert">&nbsp; Rue de Chapelle 54, 6183 Courcelles</p>
 				</div>

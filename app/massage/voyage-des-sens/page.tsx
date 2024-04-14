@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-//import { MetadataVoyageDesSens } from "@/components/metadata/MetadataVoyageDesSens";
+import Image from "next/image";
+import MassageDouceur from "../../../public/img/massage-en-douceur.jpg";
 
 export const metadata: Metadata = {
 	title: "Massage doux voyage des sens à Courcelles | Bien-être",
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: "Massage des fascias à Courcelles | La voie du bien-être",
 		description: "Massage doux des fascias à Courcelles. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
-		url: "https://lavoiedubienetre.be/massage/voyage-des-sens"
+		url: "https://lavoiedubienetre.be/massage/voyage-des-sens",
 	},
 };
 export default function page() {
@@ -18,7 +19,7 @@ export default function page() {
 		<main>
 			<h1 className="text-3xl md:text-4xl lg:text-5xl leading-tight">Le Massage &apos;Voyage des Sens&apos;</h1>
 			<section className="container space-y-4 max-w-4xl mx-auto p-4 mb-12">
-				<p className="text-base text-gray-800 font-light leading-relaxed mb-4 text-center">
+				<p className="text-base text-gray-300 font-light leading-relaxed mb-4 text-center">
 					<strong>Un Massage qui Éveille et Apaise</strong>
 				</p>
 				<p className="prose prose-neutral dark:prose-invert">
@@ -28,29 +29,38 @@ export default function page() {
 				</p>
 
 				<h3 className="text-xl md:text-2xl text-left custom-mt-2rem  leading-normal">L&apos;Essence du &apos;Voyage des Sens&apos;</h3>
-				<p className="prose prose-neutral dark:prose-invert">
-					Ce massage est une ode à la douceur, une <strong>célébration du lâcher-prise</strong>. Par des techniques spécifiquement conçues pour <strong>agir sur les fascias</strong>, ce
-					massage offre une décontraction musculaire profonde, favorisant une détente intégrale du corps et de l&apos;esprit. Les fascias, ces tissus conjonctifs qui enveloppent et
-					soutiennent les muscles, sont le secret d&apos;une relaxation profonde et durable. En les mobilisant avec délicatesse, ce soin holistique permet de libérer les blocages, de
-					fluidifier la circulation énergétique et de restaurer un état de bien-être global.
-				</p>
+				<div>
+					{" "}
+					<Image src={MassageDouceur} alt="massage efféctué en douceur" width={400} className="rounded mr-4 mt-4 float-left h-auto" />
+					<p className="prose prose-neutral dark:prose-invert">
+						Ce massage est une ode à la douceur, une <strong>célébration du lâcher-prise</strong>. Par des techniques spécifiquement conçues pour <strong>agir sur les fascias</strong>, ce
+						massage offre une décontraction musculaire profonde, favorisant une détente intégrale du corps et de l&apos;esprit.
+					</p>
+					<p className="prose prose-neutral dark:prose-invert">
+						{" "}
+						Les fascias, ces tissus conjonctifs qui enveloppent et soutiennent les muscles, sont le secret d&apos;une relaxation profonde et durable.{" "}
+					</p>
+					<p className="prose prose-neutral dark:prose-invert">
+						En les mobilisant avec délicatesse, ce soin holistique permet de libérer les blocages, de fluidifier la circulation énergétique et de restaurer un état de bien-être global.
+					</p>
+				</div>
 
 				<h3 className="text-xl md:text-2xl text-left custom-mt-2rem  leading-normal">Une Symphonie de Bienfaits</h3>
 				<p className="prose prose-neutral dark:prose-invert">Ce massage transcende le concept traditionnel du massage par ses bienfaits multiples :</p>
 				<ul>
-					<li className="text-base text-gray-800 font-light leading-relaxed mb-4">
+					<li className="text-base text-gray-300 font-light leading-relaxed mb-4">
 						<strong>Détente musculaire et décontraction fasciale</strong>: Par des manipulations douces et précises, ce massage libère les tensions accumulées, offrant un{" "}
 						<strong>soulagement profond des muscles et des fascias</strong>.
 					</li>
-					<li className="text-base text-gray-800 font-light leading-relaxed mb-4">
+					<li className="text-base text-gray-300 font-light leading-relaxed mb-4">
 						<strong>Harmonisation corps-esprit</strong> : Dans ce voyage, le mental est invité à se délester de ses préoccupations, guidant vers une paix intérieure et une clarté
 						d&apos;esprit renouvelée.
 					</li>
-					<li className="text-base text-gray-800 font-light leading-relaxed mb-4">
+					<li className="text-base text-gray-300 font-light leading-relaxed mb-4">
 						<strong>Stimulation de la circulation</strong>: La technique utilisée encourage une meilleure circulation sanguine et lymphatique, contribuant à une sensation de légèreté et de
 						vitalité.
 					</li>
-					<li className="text-base text-gray-800 font-light leading-relaxed mb-4">
+					<li className="text-base text-gray-300 font-light leading-relaxed mb-4">
 						<strong>Réduction du stress et de l&apos;anxiété </strong>En agissant sur le système nerveux, ce massage doux aide à diminuer significativement le niveau de stress, invitant à
 						un état de relaxation profonde.
 					</li>

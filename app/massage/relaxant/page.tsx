@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Image from "next/image";
+import MassageRelaxation from '../../../public/img/massage-relaxation-profonde.webp'
 
 export const metadata: Metadata = {
 	title: "Massage relaxant à Courcelles | La voie du bien-être",
@@ -18,7 +20,7 @@ export default function page() {
 		<main>
 			<h1 className="text-3xl md:text-4xl lg:text-5xl leading-tight">Découvrez le Massage Relaxant</h1>
 			<section className="container space-y-4 max-w-4xl mx-auto p-4 mb-12">
-				<p className="text-base text-gray-800 font-light leading-relaxed mb-4 text-center">
+				<p className="text-base text-gray-300 font-light leading-relaxed mb-4 text-center">
 					<strong>Votre Escapade vers le Bien-être Ultime</strong>
 				</p>
 
@@ -28,28 +30,30 @@ export default function page() {
 					offrir une expérience de détente profonde, adaptée à chacun de nos visiteurs.
 				</p>
 
+<div>
 				<h3 className="text-xl md:text-2xl text-left custom-mt-2rem  leading-normal">L&apos;Art du Massage Relaxant</h3>
+				<Image src={MassageRelaxation} alt="massage relaxant" width={400} className="rounded mr-4 mt-4 float-left h-auto" />
 				<p className="prose prose-neutral dark:prose-invert">
 					Le massage relaxant, pratiqué avec des huiles essentielles choisies pour leurs propriétés apaisantes, est une technique douce visant à détendre l&apos;ensemble du corps et à
-					apaiser l&apos;esprit. Par des mouvements fluides, des pétrissages délicats et des effleurages, nos masseurs experts aident à libérer les tensions accumulées, favorisant ainsi une
+					apaiser l&apos;esprit. </p><p className="prose prose-neutral dark:prose-invert">Par des mouvements lents et fluides, des pétrissages délicats et des effleurages, notre masseur expert aide à libérer les tensions que vous avez accumulé au fil du temps, favorisant ainsi une
 					relaxation complète.
-				</p>
-
+				</p><p className="prose prose-neutral dark:prose-invert">Ce massage permet à vos &apos;fascias&apos; de réagir face au stress et aux émotions. En ostéopathie les fascias sont &apos;le squelette psychique de l’individu&apos; puisqu’ils impriment tous les évènements traumatique de votre vie. Ce massage permet donc de libérer ces traumatismes en douceur.</p>
+				</div>
 				<h3 className="text-xl md:text-2xl text-left custom-mt-2rem  leading-normal">Les Bienfaits Incomparables</h3>
 				<p className="prose prose-neutral dark:prose-invert">Au-delà d&apos;un simple moment de détente, le massage relaxant offre de multiples bienfaits pour la santé :</p>
 				<ul>
-					<li className="text-base text-gray-800 font-light leading-relaxed mb-4">
+					<li className="text-base text-gray-300 font-light leading-relaxed mb-4">
 						<strong>Réduction du stress et de l&apos;anxiété</strong> : En stimulant la production d&apos;endorphines, le massage relaxant aide à réduire le niveau de stress, procurant une
 						sensation de bien-être général.
 					</li>
-					<li className="text-base text-gray-800 font-light leading-relaxed mb-4">
+					<li className="text-base text-gray-300 font-light leading-relaxed mb-4">
 						<strong>Amélioration de la circulation sanguine</strong> : Les techniques de massage spécifiques aident à améliorer la circulation, facilitant ainsi l&apos;oxygénation et la
 						nutrition des tissus.
 					</li>
-					<li className="text-base text-gray-800 font-light leading-relaxed mb-4">
+					<li className="text-base text-gray-300 font-light leading-relaxed mb-4">
 						<strong>Soulagement des douleurs musculaires</strong> : Par le relâchement des tensions musculaires, le massage contribue à atténuer les douleurs et à améliorer la souplesse.
 					</li>
-					<li className="text-base text-gray-800 font-light leading-relaxed mb-4">
+					<li className="text-base text-gray-300 font-light leading-relaxed mb-4">
 						<strong>Meilleure qualité de sommeil</strong> : En induisant un état de relaxation profonde, le massage relaxant favorise un sommeil plus réparateur.
 					</li>
 				</ul>

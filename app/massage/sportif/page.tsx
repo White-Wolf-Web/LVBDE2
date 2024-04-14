@@ -1,4 +1,7 @@
 import type { Metadata } from "next";
+import Image from "next/image";
+import MassageProfond from '../../../public/img/massage-profond-dos-omoplate.webp'
+
 
 export const metadata: Metadata = {
 	title: "Massage sportif à Courcelles | La voie du bien-être",
@@ -17,7 +20,7 @@ export default function page() {
 		<main>
 			<h1 className="text-3xl md:text-4xl lg:text-5xl leading-tight">Le Massage Sportif</h1>
 			<section className="container space-y-4 max-w-4xl mx-auto p-4 mb-12">
-				<p className="text-base text-gray-800 font-light leading-relaxed mb-4 text-center">
+				<p className="text-base text-gray-300 font-light leading-relaxed mb-4 text-center">
 					<strong>Votre Allié Performance et Récupération</strong>
 				</p>
 				<p className="prose prose-neutral dark:prose-invert">
@@ -25,32 +28,33 @@ export default function page() {
 					aguerri. Le massage sportif, offert chez La voie du bien-être, est conçu spécifiquement pour répondre à ces besoins, en combinant techniques avancées et approche personnalisée pour
 					optimiser votre bien-être physique et booster vos performances.
 				</p>
-
+<div>
 				<h3 className="text-xl md:text-2xl text-left custom-mt-2rem  leading-normal">L&apos;Essence du Massage Sportif</h3>
+				<Image src={MassageProfond} alt="massage profond sur une omoplate" width={400} className="rounded mr-4 mt-4 float-left h-auto" />
 				<p className="prose prose-neutral dark:prose-invert">
 					Le massage sportif est une pratique ciblée, qui s&apos;articule autour de la préparation des muscles à l&apos;effort, de l&apos;optimisation de la récupération après
-					l&apos;entraînement et de la <strong>prévention des blessures</strong>. Grâce à des techniques spécifiques telles que le pétrissage profond, les frictions et l&apos;étirement, ce
-					type de massage agit directement sur les tissus musculaires, favorisant une meilleure élasticité, une circulation optimale et une <strong>détente musculaire</strong> accrue.
+					l&apos;entraînement, il permet de maintenir la souplesse musculaire  et il contribue également à la <strong>prévention des blessures</strong>.</p><p className="prose prose-neutral dark:prose-invert"> Grâce à des techniques spécifiques telles que le pétrissage profond, les frictions et de nombreux étirement, ce
+					type de massage va agir directement sur les tissus musculaires, favorisant ainsi une meilleure élasticité, une circulation optimale et une <strong>détente musculaire</strong> accrue.
 				</p>
-
+				</div>
 				<h3 className="text-xl md:text-2xl text-left custom-mt-2rem  leading-normal">Des Bienfaits Multidimensionnels</h3>
 				<p className="prose prose-neutral dark:prose-invert">
 					Les vertus du massage sportif sont nombreuses et contribuent de manière significative à l&apos;amélioration de la condition physique :
 				</p>
 				<ul>
-					<li className="text-base text-gray-800 font-light leading-relaxed mb-4">
+					<li className="text-base text-gray-300 font-light leading-relaxed mb-4">
 						<strong>Prévention des blessures</strong> : En améliorant la flexibilité et la mobilité des muscles, le massage sportif joue un rôle préventif contre les blessures musculaires
 						et articulaires.
 					</li>
-					<li className="text-base text-gray-800 font-light leading-relaxed mb-4">
+					<li className="text-base text-gray-300 font-light leading-relaxed mb-4">
 						<strong>Récupération accélérée</strong>: La stimulation de la circulation sanguine permet une élimination plus rapide des toxines accumulées dans les muscles, réduisant ainsi
 						les courbatures et accélérant la récupération.
 					</li>
-					<li className="text-base text-gray-800 font-light leading-relaxed mb-4">
+					<li className="text-base text-gray-300 font-light leading-relaxed mb-4">
 						<strong>Amélioration des performances</strong> : En relâchant les tensions et en réduisant le risque de blessures, le massage sportif aide à maintenir un niveau de performance
 						optimal.
 					</li>
-					<li className="text-base text-gray-800 font-light leading-relaxed mb-4">
+					<li className="text-base text-gray-300 font-light leading-relaxed mb-4">
 						<strong>Réduction du stress et amélioration du bien-être mental</strong>: Les bénéfices du massage ne sont pas uniquement physiques ; ils s&apos;étendent également à la sphère
 						mentale, contribuant à une <strong>meilleure gestion du stress</strong> et à une concentration accrue.
 					</li>

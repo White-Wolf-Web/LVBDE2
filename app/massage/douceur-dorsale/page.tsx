@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Image from "next/image";
+import MassageDorsale from '../../../public/img/massage-dorsale.webp'
 
 export const metadata: Metadata = {
 	title: "Massage Dos, Epaules & Nuque à Courcelles | Douceur dorsale",
@@ -17,7 +19,7 @@ export default function page() {
 		<main>
 			<h1 className="text-3xl md:text-4xl lg:text-5xl leading-tight">le Massage &quot;Douceur Dorsale&quot;</h1>
 			<section className="container space-y-4 max-w-4xl mx-auto p-4 mb-12">
-				<p className="text-base text-gray-800 font-light leading-relaxed mb-4 text-center">
+				<p className="text-base text-gray-300 font-light leading-relaxed mb-4 text-center">
 					<strong>Une Ode au Soulagement du Dos, des Épaules et de la Nuque</strong>
 				</p>
 				<p className="prose prose-neutral dark:prose-invert">
@@ -26,30 +28,30 @@ export default function page() {
 					bien-être a conçu ce massage entierement dédié à la colonne vertebrale (des cervicales aux lombaires), aux omoplates, ..., un traitement exclusif centré sur ces zones cruciales
 					pour offrir un soulagement profond et durable.
 				</p>
-
+<div>
 				<h3 className="text-xl md:text-2xl text-left custom-mt-2rem  leading-normal">L&lsquo;Essence du Massage &lsquo;Douceur Dorsale&lsquo;</h3>
-				<p className="prose prose-neutral dark:prose-invert">
-					Ce massage du dos est une technique raffinée qui combine des mouvements doux et apaisants avec des techniques de pétrissage et d&apos;effleurage ciblées sur le dos, les épaules et
-					la nuque. Cette approche spécifique permet de dénouer les tensions accumulées au fil du temps, de soulager les douleurs et de rétablir une circulation optimale dans ces zones
-					souvent surchargées.
-				</p>
+				<Image src={MassageDorsale} alt="massage profond sur une omoplate" width={400} className="rounded mr-4 mt-4 float-left h-auto" />	<p className="prose prose-neutral dark:prose-invert">
+					Ce massage du dos est une technique raffinée qui combine des mouvements doux et apaisants avec des techniques de pétrissage et d&apos;effleurage ciblées sur le dos, les épaules, les omoplates et
+					la nuque.</p><p className="prose prose-neutral dark:prose-invert"> Cette approche spécifique permet de dénouer les tensions accumulées au fil du temps, de soulager les douleurs et de rétablir une circulation optimale dans ces zones
+					souvent surchargées.</p><p className="prose prose-neutral dark:prose-invert"> Car n'oublions pas que c'est dans le dos ou du moins la partie postérieure de notre corps que nous logeons tout ce que nous ne voulons pas voir
+				</p></div>
 
 				<h3 className="text-xl md:text-2xl text-left custom-mt-2rem  leading-normal">Les Bienfaits Multifacettes des soins apportés à votre dos</h3>
 				<p className="prose prose-neutral dark:prose-invert">En se focalisant sur le dos, les épaules et la nuque, Douceur Dorsale offre une multitude de bienfaits :</p>
 				<ul>
-					<li className="text-base text-gray-800 font-light leading-relaxed mb-4">
+					<li className="text-base text-gray-300 font-light leading-relaxed mb-4">
 						<strong>Soulagement des tensions et des douleurs</strong>En ciblant les zones de tension, ce massage aide à réduire les douleurs dorsales, les raideurs des épaules et les maux
 						de nuque, les céphalées, contribuant à une meilleure qualité de vie.
 					</li>
-					<li className="text-base text-gray-800 font-light leading-relaxed mb-4">
+					<li className="text-base text-gray-300 font-light leading-relaxed mb-4">
 						<strong>Amélioration de la posture </strong>En relâchant les tensions musculaires, ce soin favorise une posture plus naturelle et détendue, essentielle pour prévenir les
 						douleurs récurrentes.
 					</li>
-					<li className="text-base text-gray-800 font-light leading-relaxed mb-4">
+					<li className="text-base text-gray-300 font-light leading-relaxed mb-4">
 						<strong>Stimulation de la circulation sanguine</strong>Les techniques utilisées durant le massage encouragent une meilleure circulation, facilitant l&apos;apport d&apos;oxygène
 						et de nutriments essentiels aux muscles et aux tissus.
 					</li>
-					<li className="text-base text-gray-800 font-light leading-relaxed mb-4">
+					<li className="text-base text-gray-300 font-light leading-relaxed mb-4">
 						<strong>Réduction du stress</strong>Par son action relaxante, ce massage du dos aide à libérer le stress et les tensions psychiques, favorisant un état de bien-être général.
 					</li>
 				</ul>

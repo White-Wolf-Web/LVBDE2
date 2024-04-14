@@ -2,11 +2,9 @@ import './global.css';
 import type { Metadata } from 'next';
 import { GeistSans } from 'geist/font/sans';
 import { GeistMono } from 'geist/font/mono';
-import { Navbar } from './components/nav';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
-
-import Banniere from "./components/Banniere"
+import Header from './components/header';
 import type { Viewport } from 'next'
 import Footer from './components/footer';
 
@@ -128,12 +126,12 @@ export default function RootLayout({
       <head>
 
       </head>
-      <body className="antialiased max-w-5xl mb-40 flex flex-col md:flex-row mx-4  lg:mx-auto">
+      <body className="antialiased max-w-5xl mb-5 flex flex-col md:flex-row mx-4  lg:mx-auto">
         
         <main className="flex-auto min-w-0  flex flex-col px-2 md:px-0">
-        <Banniere />
+       <Header />
         <div className='max-w-4xl m-auto'>
-          <Navbar />
+          
           {children}
         
           <Analytics />

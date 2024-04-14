@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Image from "next/image";
+import ReikiDistance from "../../public/img/reiki-a-distance.webp"
 
 export const metadata: Metadata = {
 	title: "Séance de Reiki à Courcelles| La voie du bien-être",
@@ -25,14 +27,15 @@ export default function page() {
 					fiers de présenter le Reiki comme une <strong>pratique énergétique </strong>profonde destinée à tous ceux qui cherchent à enrichir leur parcours de bien-être. Cette technique
 					japonaise ancestrale de guérison par l&apos;énergie invite à un voyage intérieur, permettant de rétablir l&apos;harmonie entre le corps, l&apos;esprit et l&apos;âme.{" "}
 				</p>
-
+<div>
 				<h3 className="text-xl md:text-2xl text-left custom-mt-2rem  leading-normal">Qu&apos;est-ce que le Reiki ?</h3>
+				<Image src={ReikiDistance} alt="massage profond sur une omoplate" width={400} className="rounded mr-4 mt-4 float-left h-auto" />
 				<p className="prose prose-neutral dark:prose-invert">
 					Le Reiki, qui signifie &apos;énergie vitale universelle&apos;, est une méthode de guérison douce où le praticien canalise cette <strong>énergie universelle </strong>et la transmet
-					par imposition des mains. Cette approche non invasive agit sur tous les plans de l&apos;être, offrant une relaxation profonde, un soulagement du stress et une accélération du
-					processus naturel de guérison du corps.
+					par imposition des mains.</p><p className="prose prose-neutral dark:prose-invert"> Cette approche holistique non invasive agit sur tous les plans de l&apos;être, offrant une relaxation profonde, un soulagement du stress et une accélération du
+					processus naturel de guérison du corps.</p>  <p className="prose prose-neutral dark:prose-invert"> Ce qui permettra aux énergies d’être équilibrées et régulées, ce qui vous procurera un apaisement durable sur les 3 plans du corps terrestre, physique, mental et de émotionnel.
 				</p>
-
+				</div>
 				<h3 className="text-xl md:text-2xl text-left custom-mt-2rem  leading-normal">Les Bienfaits Multidimensionnels du Reiki</h3>
 				<p className="prose prose-neutral dark:prose-invert">Pratiquer le Reiki ou recevoir un soin Reiki apporte de nombreux bienfaits, tangibles dès les premières séances :</p>
 				<ul>
