@@ -16,7 +16,7 @@ fs.mkdir(contentDir, { recursive: true })
   .catch(error => {
     console.error('Error ensuring directory:', error);
   });
-
+/*
 const template = `---
 title: 'Hello, World!'
 publishedAt: '2023-01-01'
@@ -48,7 +48,9 @@ const workPage = `export default function Page() {
   );
 }
 `;
+*/
 
+/*
 const deleteFolderRecursive = async (path) => {
   const stat = await fs.stat(path);
   if (stat.isDirectory()) {
@@ -60,8 +62,8 @@ const deleteFolderRecursive = async (path) => {
   } else {
     await fs.unlink(path);
   }
-};
-
+};*/
+/*
 (async () => {
   dotenv.config();
 
@@ -84,3 +86,4 @@ const deleteFolderRecursive = async (path) => {
   await fs.writeFile(path.join(appDir, 'page.tsx'), homePage);
  // await fs.writeFile(path.join(workDir, 'page.tsx'), workPage);
 })();
+*/
