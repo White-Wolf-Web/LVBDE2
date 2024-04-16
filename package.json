@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbo",
-    "build": "npm install --legacy-peer-deps && npm run setup && next build",
+    "build": "npm run setup && next build",
     "build-only": "next build",
     "start": "next start",
     "setup": "node ./setup.mjs"
@@ -14,7 +14,7 @@
     "@types/node": "20.11.17",
     "@types/react": "18.2.55",
     "@types/react-dom": "18.2.19",
-    "@vercel/analytics": "^1.2.2",
+  
     "@vercel/speed-insights": "^1.0.9",
     "autoprefixer": "^10.4.17",
     "classnames": "^2.5.1",
